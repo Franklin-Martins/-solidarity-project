@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Inscrição</title>
+</head>
+<body>
+        <header><h1>Página de inscrição</h1></header>
+        <div id="container">
+        <section id="left-info" >
+            <div class="card">
+                <h1>Como você pode ajudar</h1>
+                <p>Caso queira ajudar de outra forma e participar do curso, 
+                    entre em contato conosco via whatsapp clicando no icone abaixo
+                </p>
+                <a href="https://wa.me/5592988175459?text=Eu%20tenho%20interesse%20no%20seu%20carro%20%C3%A0%20venda"> 
+                    <img width="50px" src="../assets/whatsapp.svg" alt=""> 
+                </a>
+            </div>
+            <div class="card">
+                    <h1>Entre no nosso grupo do whatsapp</h1>
+                    <p>Grupo para tirar dúvidas sobre o processo, entre clicando no ícone abaixo!
+                    </p>
+                    <a href="https://chat.whatsapp.com/GkfcFw5XLcT6rYSyWN4Ffb"> 
+                        <img width="50px" src="../assets/whatsapp.svg" alt=""> 
+                    </a>
+                </div>
+        </section>
+        <section id="payment">
+            <h1>Clique no botão abaixo</h1>
+            <h5>O custo do curso está no valor de R$30,00, e o valor será direcionado para ajudar as crianças do Hemoam</h5>
+            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+    <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post">
+        <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+        <input type="hidden" name="code" value="B23EF39498988AFEE4B86FB5CFD667E4" />
+        <input type="hidden" name="iot" value="button" />
+        <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/120x53-pagar-laranja.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+        </form>
+        <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+        </section>
+    </div>
+</body>
+</html> 
